@@ -9,6 +9,7 @@
 		<th>Crust</th>
 		<th>Toppings</th>
 		<th>Descriptions</th>
+		<th>Topping Details</th>
 	</tr>
 	
 	<!-- Here is where we iterate through our $orders query object, printing out order info -->
@@ -28,6 +29,9 @@
 				print_r($SingleToppings[0]);
 				
 			 ?>
+		</td>
+		<td>
+			<!--<?= $order->ordertoppingsassociation   ?>-->
 		</td>
 		
 		<td>
